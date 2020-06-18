@@ -60,122 +60,124 @@ void transform_str(const char* str, int cout_str)
   }
   //printf("%d\n",k);
   printf("\n");
+  printf("%d\n",k);
   for (int d=0;d<k;d++)
   {
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'a' && *transform_str[d+2] == 'a' && *transform_str[d+3]== 'a' && *transform_str[d+4] == 'a')
     {
       printf("%c",'a');
-      d=d+4;
+      d=d+3;
     }
-  //  else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'a' && *transform_str[d+2] == 'a' && *transform_str[d+3] == 'a' && *transform_str[d+4] == 'b')
     {
       printf("%c",'b');
-      if (d+4<=k)
+      if (d+3<=k)
       {
-        d=d+4;
+        d=d+3;
       }
-      d=d+4;
+
     }
     if (*transform_str[d] == 'a'&& *transform_str[d+1] == 'a' && *transform_str[d+2] == 'a' && *transform_str[d+3] == 'b' && *transform_str[d+4] == 'a')
     {
       printf("%c",'c');
       d=d+4;
     }
-//    else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'a' && *transform_str[d+2] == 'a' && *transform_str[d+3] =='b' && *transform_str[d+4] == 'b')
     {
       printf("%c",'d');
       d=d+4;
     }
-//    else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'a' && *transform_str[d+2] == 'b' && *transform_str[d+3] == 'a' && *transform_str[d+4] == 'a')
     {
       printf("%c",'e');
       d=d+4;
     }
-//    else
+    else
     if(*transform_str[d] =='a' && *transform_str[d+1] == 'a' && *transform_str[d+2] == 'b' && *transform_str[d+3] == 'a' && *transform_str[d+4] == 'b')
     {
       printf("%c",'f');
       d=d+4;
     }
-//    else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'a' && *transform_str[d+2]=='b' && *transform_str[d+3] =='b' && *transform_str[d+4] == 'a')
     {
       printf("%c",'g');
       d=d+4;
     }
-    //else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'a' && *transform_str[d+2] == 'b' && *transform_str[d+3] == 'b'&& *transform_str[d+4]=='b')
     {
       printf("%c",'h');
       d=d+4;
     }
-  //  else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'b' && *transform_str[d+2] == 'a' && *transform_str[d+3] == 'a' && *transform_str[d+4] == 'a')
     {
       printf("%c",'i');
       d=d+4;
     }
-  //  else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'b' && *transform_str[d+2] == 'a' && *transform_str[d+3] == 'a' && *transform_str[d+4] =='b')
     {
       printf("%c",'j');
       d=d+4;
     }
-  //  else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'b' && *transform_str[d+2] =='a' && *transform_str[d+3] == 'b' && *transform_str[d+4] == 'a')
     {
       printf("%c",'k');
       d=d+4;
     }
-  //  else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'b' && *transform_str[d+2] =='a' && *transform_str[d+3] =='b' && *transform_str[d+4] == 'b')
     {
       printf("%c",'i');
       d=d+4;
     }
-  //  else
+    else
     if (*transform_str[d] =='a' && *transform_str[d+1] == 'b' && *transform_str[d+2] == 'b' && *transform_str[d+3] == 'a' && *transform_str[d+4] == 'a')
     {
       printf("%c",'m');
       d=d+4;
     }
-  //  else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'b' && *transform_str[d+2] == 'b' && *transform_str[d+3] =='a' && *transform_str[d+4]=='b')
     {
       printf("%c",'n');
       d=d+4;
     }
-  //  else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'b' && *transform_str[d+2] == 'b' && *transform_str[d+3] == 'b' && *transform_str[d+4] == 'a')
     {
       printf("%c",'o');
       d=d+4;
     }
-  //  else
+    else
     if (*transform_str[d] == 'a' && *transform_str[d+1] == 'b' && *transform_str[d+2] == 'b' && *transform_str[d+3] =='b' && *transform_str[d+4] == 'b')
     {
       printf("%c",'p');
       d=d+4;
     }
-  //  else
+    else
     if (*transform_str[d] == 'b' && *transform_str[d+1] == 'a' && *transform_str[d+2] == 'a' && *transform_str[d+3] == 'a' && *transform_str[d+4] == 'a')
     {
       printf("%c",'q');
       d=d+4;
     }
-  //  else
+    else
     if (*transform_str[d] == 'b' && *transform_str[d+1] == 'a' && *transform_str[d+2]=='a' && *transform_str[d+3] == 'a' && *transform_str[d+4] == 'b')
     {
       printf("%c",'r');
       d=d+4;
     }
-    //else
+    else
     if (*transform_str[d] == 'b' && *transform_str[d+1] == 'a' && *transform_str[d+2] == 'a' && *transform_str[d+3] == 'b' && *transform_str[d+4] == 'a')
     {
       printf("%c",'s');
+      d=d+4;
     }
   }
 }
